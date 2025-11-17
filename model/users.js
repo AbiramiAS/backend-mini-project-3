@@ -78,4 +78,22 @@ export const userData = [
     refreshToken:
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxMCIsImlhdCI6MTc2MzM2OTk3OSwiZXhwIjoxNzYzNDU2Mzc5fQ.WJG_iWCadysbSWP4W3IeiKuOIvPYMw5keehR2DjVXWw",
   },
+  {
+    username: "user11",
+    roles: {
+      User: 2001,
+    },
+    password: "$2b$10$LU19PmEVbHl56EvBP0s19ukSHjqwCF/6iVt/yScLHX0WqOYpc2NNG",
+    refreshToken:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxMCIsImlhdCI6MTc2MzM2OTk3OSwiZXhwIjoxNzYzNDU2Mzc5fQ.WJG_iWCadysbSWP4W3IeiKuOIvPYMw5keehR2DjVXWw",
+  },
+  {
+    username: "user12",
+    roles: {
+      User: 2001,
+    },
+    password: "$2b$10$5HU2iRktC6dASngcHrGh.ejiIgsHUxEMhI10PvB/9X.98unmgHYHW",
+    refreshToken:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxMiIsImlhdCI6MTc2MzM4NTk0OSwiZXhwIjoxNzYzNDcyMzQ5fQ.YLWRGYYca6AFKsGdYzux8Fjoex1IculdQb7lRjLL614",
+  },
 ];
