@@ -36,8 +36,9 @@ export const authenticateUser = async (req, res) => {
     : null;
   if (!matchFound) return res.status(401).json("Unauthorized Access");
   if (matchFound) {
+    const userRole = loggedinUser != undefined ? Object.values(loggedinUser.roles) : null;
     const accessToken = jwt.sign(
-      { username: loggedinUser.username },
+      { "User Details" : { "username": loggedinUser.username, "roles": userRole } },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "90s" }
     );
