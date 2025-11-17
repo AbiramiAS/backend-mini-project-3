@@ -1,5 +1,5 @@
 {
-  "name": "backend-mini-project-2-app",
+  "name": "backend-mini-project-3-app",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbiramiAS/backend-mini-project-2.git"
+    "url": "git+https://github.com/AbiramiAS/backend-mini-project-3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbiramiAS/backend-mini-project-2/issues"
+    "url": "https://github.com/AbiramiAS/backend-mini-project-3/issues"
   },
-  "homepage": "https://github.com/AbiramiAS/backend-mini-project-2#readme",
+  "homepage": "https://github.com/AbiramiAS/backend-mini-project-3#readme",
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
