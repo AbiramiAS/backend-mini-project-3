@@ -17,7 +17,11 @@ export const registerNewUser = async (req, res) => {
     return res.status(409).json({ message: "Username already exists" });
   }
   const hashedPassword = await bcrypt.hash(password, 10);
-  const newUser = { username: username, password: hashedPassword };
+  const newUser = {
+    "username": username,
+    "roles": { User: 2001 },
+    "password": hashedPassword,
+  };
   userDB.setUsers([...userDB.users, newUser]);
   await fsPromise.writeFile(
     path.join(dirname.name, "..", "model", "users.js"),
